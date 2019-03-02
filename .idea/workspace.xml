@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226f4a33-50eb-422b-a9d2-66f9126a45b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleControllerImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleControllerImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleListControllerimpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleListControllerimpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -80,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -151,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Comment.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/User.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/SessionProvider.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/KtorSessionProvider.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleListController.kt" />
@@ -167,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleListControllerimpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/Article/ArticleControllerImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -297,7 +299,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551555221267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551555547908" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -367,16 +369,15 @@
       <workItem from="1550570271601" duration="5545000" />
       <workItem from="1550736205011" duration="7888000" />
       <workItem from="1550822328933" duration="367000" />
-      <workItem from="1551535798889" duration="17994000" />
+      <workItem from="1551535798889" duration="18199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37864000" />
+    <option name="totallyTimeSpent" value="38069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -513,13 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -694,6 +688,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>

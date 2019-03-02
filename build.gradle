@@ -16,7 +16,6 @@ dependencies {
     implementation "mysql:mysql-connector-java:8.0.15"
     implementation "io.ktor:ktor-freemarker:1.1.2"
     implementation 'org.mindrot:jbcrypt:0.4'
-    implementation "io.ktor:ktor-auth:1.1.2"
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
