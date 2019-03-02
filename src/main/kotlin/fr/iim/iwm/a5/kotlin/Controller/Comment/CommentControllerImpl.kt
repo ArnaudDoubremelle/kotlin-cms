@@ -1,4 +1,4 @@
-package fr.iim.iwm.a5.kotlin.Controller
+package fr.iim.iwm.a5.kotlin.Controller.Comment
 
 import fr.iim.iwm.a5.kotlin.Model.Comment
 import fr.iim.iwm.a5.kotlin.Model.Model

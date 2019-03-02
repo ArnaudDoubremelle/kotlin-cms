@@ -1,4 +1,4 @@
-package fr.iim.iwm.a5.kotlin.Controller
+package fr.iim.iwm.a5.kotlin.Controller.Article
 
 import fr.iim.iwm.a5.kotlin.Model.Model
 import io.ktor.freemarker.FreeMarkerContent

@@ -75,4 +75,23 @@ class MysqlModel(val url: String, val user: String?, val password: String?): Mod
         }
     }
 
+    override fun getUser(username: String?): User? {
+        connectionPool.use { connection ->
+            connection.prepareStatement("SELECT * FROM users WHERE username = ?").use { stmt ->
+                stmt.setString(1, username)
+                val result = stmt.executeQuery()
+                val found = result.next()
+
+                if (found) {
+                    return User(
+                        result.getInt("id"),
+                        result.getString("username"),
+                        result.getString("password")
+                    )
+                }
+            }
+        }
+        return null
+    }
+
 }

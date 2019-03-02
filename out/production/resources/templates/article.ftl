@@ -12,7 +12,7 @@
             <input type="hidden" name="idArticle" value="${article.id}">
             <div class="form-group">
                 <label for="comment">Ecrire un commentaire</label>
-                <textarea id="comment" class="form-control" name="text" rows="5" ></textarea>
+                <textarea id="comment" class="form-control" name="text" rows="5" required ></textarea>
             </div>
             <input type="submit" value="Commenter" class="btn btn-primary">
         </form>
