@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.iim.iwm.a5.kotlin.ModelTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-02T15:38:54" hostname="MacBook-Pro-de-Arnaud.local" time="0.46">
+  <properties/>
+  <testcase name="testsArticleNotInDb" classname="fr.iim.iwm.a5.kotlin.ModelTests" time="0.445"/>
+  <testcase name="testsArticleInDb" classname="fr.iim.iwm.a5.kotlin.ModelTests" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
