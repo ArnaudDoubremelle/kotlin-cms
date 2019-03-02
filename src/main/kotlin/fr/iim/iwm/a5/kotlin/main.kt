@@ -1,5 +1,9 @@
 package fr.iim.iwm.a5.kotlin
 
+import fr.iim.iwm.a5.kotlin.Controller.ArticleControllerImpl
+import fr.iim.iwm.a5.kotlin.Controller.ArticleListController
+import fr.iim.iwm.a5.kotlin.Controller.ArticleListControllerImpl
+import fr.iim.iwm.a5.kotlin.Model.MysqlModel
 import freemarker.cache.ClassTemplateLoader
 import io.ktor.application.*
 import io.ktor.freemarker.FreeMarker

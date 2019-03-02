@@ -1,4 +1,6 @@
-package fr.iim.iwm.a5.kotlin
+package fr.iim.iwm.a5.kotlin.Model
+
+import fr.iim.iwm.a5.kotlin.ConnectionPool
 
 class MysqlModel(val url: String, val user: String?, val password: String?): Model {
 

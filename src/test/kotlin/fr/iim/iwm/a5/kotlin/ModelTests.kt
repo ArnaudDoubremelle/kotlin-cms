@@ -1,5 +1,6 @@
 package fr.iim.iwm.a5.kotlin
 
+import fr.iim.iwm.a5.kotlin.Model.MysqlModel
 import org.junit.Before
 import org.junit.Test
 import kotlin.test.assertEquals

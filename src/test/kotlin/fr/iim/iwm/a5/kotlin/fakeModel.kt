@@ -1,5 +1,8 @@
 package fr.iim.iwm.a5.kotlin
 
+import fr.iim.iwm.a5.kotlin.Model.Article
+import fr.iim.iwm.a5.kotlin.Model.Model
+
 class FakeModel : Model {
     override fun getArticleList(): List<Article> {
         return listOf(Article(42, "Super Titre"))

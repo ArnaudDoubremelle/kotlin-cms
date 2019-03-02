@@ -2,6 +2,9 @@ package fr.iim.iwm.a5.kotlin
 
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.mock
+import fr.iim.iwm.a5.kotlin.Controller.ArticleControllerImpl
+import fr.iim.iwm.a5.kotlin.Model.Article
+import fr.iim.iwm.a5.kotlin.Model.Model
 import io.ktor.freemarker.FreeMarkerContent
 import io.ktor.http.HttpStatusCode
 import org.junit.Test
