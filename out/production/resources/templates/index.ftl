@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Tous les articles</title>
-</head>
-<body>
+<#include "static/header.ftl">
 
 <#list articles as article>
-    <p><a href="/article/${article.id}">${article.title}</a></p>
+<div class="col-lg-12">
+    <h4>${article.title}</h4>
+    <a href="/article/${article.id}">Lire l'article</a>
+</div>
 </#list>
 
-</body>
-</html>
+
+<#include "static/footer.ftl">

@@ -37,4 +37,42 @@ class MysqlModel(val url: String, val user: String?, val password: String?): Mod
         return null
     }
 
+    override fun getCommentsByArticle(article: Int): List<Comment> {
+        val comments = ArrayList<Comment>()
+
+        connectionPool.use { connection ->
+            connection.prepareStatement("SELECT * FROM comments WHERE idArticle = ?;").use { stmt ->
+                stmt.setInt(1, article)
+                val results = stmt.executeQuery()
+                while (results.next()) {
+                    comments += Comment(
+                        results.getInt("id"),
+                        results.getInt("idArticle"),
+                        results.getString("text")
+                    )
+                }
+            }
+        }
+        return comments
+    }
+
+    override fun createComment(comment: Comment) {
+        connectionPool.use { connection ->
+            connection.prepareStatement("INSERT INTO comments (id, idArticle, text) VALUES (NULL, ?, ?);").use { stmt ->
+                stmt.setInt(1, comment.idArticle)
+                stmt.setString(2, comment.text)
+                stmt.executeUpdate()
+            }
+        }
+    }
+
+    override fun deleteComment(id: Int) {
+        connectionPool.use { connection ->
+            connection.prepareStatement("DELETE FROM comments WHERE comments.id = ?;").use { stmt ->
+                stmt.setInt(1, id)
+                stmt.executeUpdate()
+            }
+        }
+    }
+
 }

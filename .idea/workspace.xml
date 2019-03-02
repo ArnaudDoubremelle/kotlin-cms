@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226f4a33-50eb-422b-a9d2-66f9126a45b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentControllerImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Comment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/header.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/IndexData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$cmsApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Model/MysqlModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fr/iim/iwm/a5/kotlin/Model/MysqlModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/article.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -34,7 +56,98 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              <folding>
+                <element signature="e#30#626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentControllerImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+              <folding>
+                <element signature="e#41#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/static/footer.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Comment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +162,10 @@
       <find>888</find>
       <find>ArrayList</find>
       <find>start</find>
+      <find>articleController</find>
+      <find>call</find>
+      <find>respondRedirect</find>
+      <find>article</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/templates/index.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/templates/article.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Article.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/article.ftl" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/IMysqlModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleListController.kt" />
@@ -69,15 +185,24 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ConnectionPool.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/MysqlModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/IndexData.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleListControllerimpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleControllerImpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/kotlin/ArticleTests.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/fr/iim/iwm/a5/kotlin/ArticleTests.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/fr/iim/iwm/a5/kotlin/fakeModel.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/fr/iim/iwm/a5/kotlin/ModelTests.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/static/footer.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/static/header.ftl" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentControllerImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/article.ftl" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Comment.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt" />
       </list>
     </option>
   </component>
@@ -131,6 +256,24 @@
               <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -140,27 +283,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +294,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551541471298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551545967369" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -180,8 +302,14 @@
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="fr.iim.iwm.a5.kotlin" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="fr.iim.iwm.a5.kotlin.Model" />
+    </key>
     <key name="KotlinExtractInterfaceDialog.RECENT_KEYS">
       <recent name="fr.iim.iwm.a5.kotlin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,15 +361,16 @@
       <workItem from="1550570271601" duration="5545000" />
       <workItem from="1550736205011" duration="7888000" />
       <workItem from="1550822328933" duration="367000" />
-      <workItem from="1551535798889" duration="5157000" />
+      <workItem from="1551535798889" duration="9155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25027000" />
+    <option name="totallyTimeSpent" value="29025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,6 +408,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt</url>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/demo.kt" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9450758-2782-4740-8363-e5cfa459ace9/console.sql">
@@ -293,14 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/templates/index.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/templates/article.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleListController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleListController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
@@ -328,14 +461,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Article.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Article.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleListControllerimpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleListControllerimpl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -345,56 +478,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ArticleControllerImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#30#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ConnectionPool.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/ArticleTests.kt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/MysqlModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,13 +515,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/ConnectionPool.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <element signature="e#30#307#0" expanded="true" />
+            <element signature="e#30#136#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assets/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/static/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Model.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentControllerImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/static/footer.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/CommentController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Controller/ArticleControllerImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#41#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/Comment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          <folding>
+            <element signature="e#30#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/fr/iim/iwm/a5/kotlin/Model/MysqlModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
         </state>
       </provider>
     </entry>

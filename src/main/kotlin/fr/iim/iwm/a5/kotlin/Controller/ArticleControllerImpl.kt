@@ -9,8 +9,9 @@ class ArticleControllerImpl(private val model: Model) :
 
     override fun startFM(id: Int): Any {
         val article = model.getArticle(id)
+        val comments =  model.getCommentsByArticle(id)
         if (article !== null) {
-            return FreeMarkerContent("article.ftl", mapOf("article" to article), "e")
+            return FreeMarkerContent("article.ftl", mapOf("article" to article, "comments" to comments), "e")
 
         }
         return HttpStatusCode.NotFound
