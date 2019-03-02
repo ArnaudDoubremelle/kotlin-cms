@@ -20,9 +20,7 @@ import io.ktor.routing.post
 import io.ktor.routing.routing
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
-import io.ktor.sessions.Sessions
-import io.ktor.sessions.cookie
-import org.mindrot.jbcrypt.BCrypt
+import io.ktor.sessions.*
 
 class App
 
@@ -44,13 +42,13 @@ fun Application.cmsApp(
 
     routing {
         get("/") {
-            val articles = articleListController.startFM()
+            val articles = articleListController.startFM(KtorSessionProvider(call))
             call.respond(articles)
         }
 
         get("/article/{id}") {
             val id = call.parameters["id"]!!.toInt()
-            val article = articleController.startFM(id)
+            val article = articleController.startFM(id, KtorSessionProvider(call))
             call.respond(article)
         }
 
@@ -78,6 +76,11 @@ fun Application.cmsApp(
             val username = params["username"]
             val password = params["password"]
             val content = userController.loginAction(username, password, context)
+            call.respondRedirect(content)
+        }
+
+        get("/logout") {
+            val content = userController.disconnectAction(context)
             call.respondRedirect(content)
         }
 

@@ -1,19 +1,15 @@
 package fr.iim.iwm.a5.kotlin.Controller.Article
 
 import fr.iim.iwm.a5.kotlin.Model.Model
+import fr.iim.iwm.a5.kotlin.Model.SessionProvider
 import io.ktor.freemarker.FreeMarkerContent
-import io.ktor.http.HttpStatusCode
 
 class ArticleListControllerImpl(private val model: Model) :
     ArticleListController {
 
-    override fun startFM(): Any {
+    override fun startFM(sessionProvider: SessionProvider): Any {
         val articles = model.getArticleList()
-        if (articles !== null) {
-            return FreeMarkerContent("index.ftl", mapOf("articles" to articles), "e")
-
-        }
-        return HttpStatusCode.NotFound
+        return FreeMarkerContent("index.ftl", mapOf("articles" to articles, "session" to sessionProvider.getSession()), "e")
     }
 
 }

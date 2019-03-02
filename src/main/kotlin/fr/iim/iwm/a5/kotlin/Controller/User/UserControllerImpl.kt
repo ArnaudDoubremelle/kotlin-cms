@@ -5,6 +5,7 @@ import fr.iim.iwm.a5.kotlin.Model.SessionProvider
 import fr.iim.iwm.a5.kotlin.Model.UserSession
 import io.ktor.application.ApplicationCall
 import io.ktor.freemarker.FreeMarkerContent
+import io.ktor.sessions.clear
 import io.ktor.sessions.sessions
 import org.mindrot.jbcrypt.BCrypt
 
@@ -14,8 +15,8 @@ class UserControllerImpl(private val model: Model) : UserController {
         return FreeMarkerContent("login.ftl", mapOf("session" to sessionProvider.getSession()), "e")
     }
 
-    override fun loginAction(login: String?, password: String?, context: ApplicationCall): String {
-        val user = model.getUser(login)
+    override fun loginAction(username: String?, password: String?, context: ApplicationCall): String {
+        val user = model.getUser(username)
         if (user != null) {
 
             if (BCrypt.checkpw(password, user.password)) {
@@ -26,6 +27,11 @@ class UserControllerImpl(private val model: Model) : UserController {
 
         }
         return "/login"
+    }
+
+    override fun disconnectAction(context: ApplicationCall): String {
+        context.sessions.clear<UserSession>()
+        return "/"
     }
 
 }

@@ -6,5 +6,6 @@ import io.ktor.application.ApplicationCall
 
 interface UserController {
     fun login(sessionProvider: SessionProvider): Any
-    fun loginAction(login: String?, password: String?, context: ApplicationCall): String
+    fun loginAction(username: String?, password: String?, context: ApplicationCall): String
+    fun disconnectAction(context: ApplicationCall): String
 }

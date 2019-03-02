@@ -8,5 +8,5 @@ interface Model {
     fun getCommentsByArticle(article: Int): List<Comment>
     fun createComment(comment: Comment)
     fun deleteComment(id: Int)
-    fun getUser(login: String?): User?
+    fun getUser(username: String?): User?
 }
