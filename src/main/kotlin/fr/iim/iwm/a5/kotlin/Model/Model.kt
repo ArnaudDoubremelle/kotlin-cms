@@ -9,4 +9,6 @@ interface Model {
     fun createComment(comment: Comment)
     fun deleteComment(id: Int)
     fun getUser(username: String?): User?
+    fun createArticle(article: Article)
+    fun deleteArticle(id: Int)
 }

@@ -84,6 +84,20 @@ fun Application.cmsApp(
             call.respondRedirect(content)
         }
 
+        post("/article/create") {
+            val params = call.receive<Parameters>()
+            val title = params["title"]!!
+            val text = params["text"]!!
+            articleController.createArticle(title, text)
+            call.respondRedirect("/")
+        }
+
+        get("/article/delete/{id}") {
+            val id = call.parameters["id"]!!.toInt()
+            articleController.deleteArticle(id)
+            call.respondRedirect("/")
+        }
+
     }
 }
 

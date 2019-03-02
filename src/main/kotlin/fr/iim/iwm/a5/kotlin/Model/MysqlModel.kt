@@ -68,7 +68,7 @@ class MysqlModel(val url: String, val user: String?, val password: String?): Mod
 
     override fun deleteComment(id: Int) {
         connectionPool.use { connection ->
-            connection.prepareStatement("DELETE FROM comments WHERE comments.id = ?;").use { stmt ->
+            connection.prepareStatement("DELETE FROM comments WHERE id = ?;").use { stmt ->
                 stmt.setInt(1, id)
                 stmt.executeUpdate()
             }
@@ -92,6 +92,25 @@ class MysqlModel(val url: String, val user: String?, val password: String?): Mod
             }
         }
         return null
+    }
+
+    override fun createArticle(article: Article) {
+        connectionPool.use { connection ->
+            connection.prepareStatement("INSERT INTO articles (id, title, text) VALUES (NULL, ?, ?);").use { stmt ->
+                stmt.setString(1, article.title)
+                stmt.setString(2, article.text)
+                stmt.executeUpdate()
+            }
+        }
+    }
+
+    override fun deleteArticle(id: Int) {
+        connectionPool.use { connection ->
+            connection.prepareStatement("DELETE FROM articles WHERE id = ?;").use { stmt ->
+                stmt.setInt(1, id)
+                stmt.executeUpdate()
+            }
+        }
     }
 
 }

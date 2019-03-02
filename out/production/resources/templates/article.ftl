@@ -23,7 +23,9 @@
             <p>
                 ${comment.text}
             </p>
-            <a href="/comment/delete/${comment.id}/${comment.idArticle}">Supprimer</a>
+            <#if session??>
+                <a href="/comment/delete/${comment.id}/${comment.idArticle}">Supprimer</a>
+            </#if>
             <hr>
         </#list>
     </div>
